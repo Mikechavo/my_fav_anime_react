@@ -8,6 +8,7 @@ import Berserk from './pages/Berserk';
 import Goblin from './pages/Goblin';
 import Jjk from './pages/Jjk';
 import { NavLink } from 'react-router-dom';
+import './App.css';
 
 const App = () => {
   return (

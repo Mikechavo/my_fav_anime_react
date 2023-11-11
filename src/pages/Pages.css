@@ -1,0 +1,26 @@
+.pages-body {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  /* background-image: url('../assets/index-page.avif'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.pages-listing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.pages-cards {
+  width: 17rem;
+  border: 2px solid #a1b2a1 !important;
+  -moz-box-shadow: 0 0 10px #807e7a;
+  -webkit-box-shadow: 0 0 10px #807e7a;
+  box-shadow: 0 0 10px #807e7a;
+}
