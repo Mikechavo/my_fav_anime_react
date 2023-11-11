@@ -63,12 +63,10 @@ const Jjk = (args) => {
       title: 'Satoru Gojo',
       image: 'https://www.looper.com/img/gallery/satoru-gojos-powers-from-jujutsu-kaisen-explained/l-intro-1634607238.jpg',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -78,12 +76,10 @@ const Jjk = (args) => {
       title: 'Megumi Fushiguro',
       image: 'https://staticg.sportskeeda.com/editor/2023/02/7d17a-16754537065524.png?w=840',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -93,12 +89,10 @@ const Jjk = (args) => {
       title: 'Nobara Kugisaki',
       image: 'https://staticg.sportskeeda.com/editor/2022/10/53080-16654550806994-1920.jpg',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -108,12 +102,10 @@ const Jjk = (args) => {
       title: 'Kenjaku',
       image: 'https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/09/playing-with-the-death-jujutsu-kaisen.jpg',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -123,12 +115,10 @@ const Jjk = (args) => {
       title: 'Yuta Okkotsu',
       image: 'https://sportshub.cbsistatic.com/i/2022/03/19/bda23fc4-a6f9-4f80-b346-cff38ab38a89/yuta-okkotsu-jujutsu-kaisen-0.jpg',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -138,12 +128,10 @@ const Jjk = (args) => {
       title: 'Suguru Geto',
       image: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/02/jujutsu-kaisen-suguru-geto.jpg',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -153,12 +141,10 @@ const Jjk = (args) => {
       title: 'Hana Kurusu',
       image: 'https://cdn.epicstream.com/images/ncavvykf/epicstream/245bb8c3836425dd4fdc78a67eaddb384464d1f1-1280x720.jpg?rect=0,24,1280,672&w=1600&h=840',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
@@ -168,12 +154,10 @@ const Jjk = (args) => {
       title: 'Choso',
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzx0vbqIktDpph6cD0Hfa_kINHTdux7pjhIA&usqp=CAU',
       abilities: [
-        // Sukuna's abilities
-      ],
-      gifs: [
-        'https://example.com/sukuna1.gif',
-        'https://example.com/sukuna2.gif',
-        // ... other gifs
+        'x',
+        {
+          gif: 'https://64.media.tumblr.com/a9db85aaf7eb1d663f596110bb580561/89b06cabccf57100-ca/s1280x1920/7f75328cc3670ad8200a6c93aa68542ea22626ed.gifv',
+        },
       ],
     },
     // ... add more objects for additional cards
