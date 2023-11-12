@@ -179,7 +179,7 @@ const Jjk = (args) => {
         Home
       </NavLink>
       </Button>
-      <h1>Jujutsu Kaisen Character List</h1>
+      <h1 style={{ color: 'white' }}>Jujutsu Kaisen Character List</h1>
 
       <div className='pages-listing '>
         {modals.map((card, index) => (
