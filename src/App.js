@@ -13,7 +13,6 @@ import { NavLink } from 'react-router-dom';
 const App = () => {
   return (
     <div className="App">
-      <div class="background-animation"></div> {/* animated background */}
       <h1 className='title-page'>My Favorite Anime</h1>
       
       <main>

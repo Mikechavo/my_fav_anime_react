@@ -8,7 +8,7 @@
    width: 100%;
   height: 100%;
   position: absolute;
-  background: -webkit-linear-gradient(left top, #810101, #490d0d, #810101);
+  background: -webkit-linear-gradient(left top, #0f0404, #6b6868, #0f0404);
   /* background: -moz-linear-gradient(left top, #858585, #525252);
   background: -o-linear-gradient(left top, #858585, #525252);
   background: -ms-linear-gradient(left top, #858585, #525252);
@@ -63,7 +63,7 @@
 }
 
 
-.background-animation {
+.background-animation-home {
   width: 100%;
   height: 100%;
   position: fixed;

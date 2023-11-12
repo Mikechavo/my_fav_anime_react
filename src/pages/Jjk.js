@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Card, Button, Modal, ModalBody, ModalFooter, List, CardImg, CardTitle } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import './Pages.css';
+import './Jjk.css'
 
 const Jjk = (args) => {
   const [modals, setModals] = useState([
@@ -171,10 +172,13 @@ const Jjk = (args) => {
 
   return (
     <div className="pages-body">
-      <NavLink to={'/'}>
+      <div class="background-animation-jjk"></div> {/* animated background */}
+       <Button  color="danger"
+    outline className="berserkButton" >
+      <NavLink to={'/'}  style={{ color: 'white' }}>
         Home
       </NavLink>
-
+      </Button>
       <h1>Jujutsu Kaisen Character List</h1>
 
       <div className='pages-listing '>
