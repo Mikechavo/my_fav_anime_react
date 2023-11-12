@@ -187,7 +187,7 @@ const Jjk = (args) => {
             <CardTitle>
               {card.title}
             </CardTitle>
-            <img src={card.image} />
+            <img src={card.image} alt={card.title} />
             <Button color="danger" onClick={() => toggle(index)}>Abilities and Powers</Button>
             <Modal isOpen={card.isOpen} toggle={() => toggle(index)} {...args}>
               <ModalBody>

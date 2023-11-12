@@ -1,7 +1,6 @@
 import React from 'react';
-import { CardGroup, Card, CardBody, CardTitle, CardText, Button, Col } from 'reactstrap';
+import { Card, CardTitle, CardText, Button } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import App from '../App';
 import '../App.css'
 const Home = () => {
 

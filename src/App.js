@@ -1,13 +1,11 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom"
-import logo from './logo.svg';
 import './App.css';
-import { Card, CardBody, CardTitle, CardSubtitle, Button } from "reactstrap"
 import Home from './pages/Home';
 import Berserk from './pages/Berserk';
 import Goblin from './pages/Goblin';
 import Jjk from './pages/Jjk';
-import { NavLink } from 'react-router-dom';
+
 
 
 const App = () => {
