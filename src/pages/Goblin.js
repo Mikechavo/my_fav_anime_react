@@ -50,7 +50,7 @@ const Goblin = (args) => {
             <img src={card.image} alt={card.title} />
             <Button color="danger" onClick={() => toggle(index)}>Details</Button>
             <Modal isOpen={card.isOpen} toggle={() => toggle(index)} {...args}>
-              <ModalBody>
+            <ModalBody className="custom-modal">
                 <List>
                   {card.abilities.map((ability, i) => (
                     <React.Fragment key={i}>

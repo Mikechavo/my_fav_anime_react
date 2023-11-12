@@ -24,3 +24,8 @@
   -webkit-box-shadow: 0 0 10px #807e7a;
   box-shadow: 0 0 10px #807e7a;
 }
+
+.custom-modal {
+  background:rgb(53, 49, 49);
+  color: rgb(247, 244, 244);
+}
