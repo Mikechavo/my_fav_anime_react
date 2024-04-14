@@ -444,12 +444,7 @@ const Berserk = (args) => {
   return (
     <div className="pages-body">
       <div class="background-animation-berserk"></div> {/* animated background */}
-       <Button  color="danger"
-    outline className="berserkButton" >
-      <NavLink to={'/'}  style={{ color: 'white' }}>
-        Home
-      </NavLink>
-      </Button>
+       
       <h1 style={{ color: 'white' }}>Bereserk Character List</h1>
 
       <div className='pages-listing '>

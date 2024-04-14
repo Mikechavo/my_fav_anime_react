@@ -4,24 +4,30 @@ import { NavLink } from 'react-router-dom';
 import './Pages.css';
 import './Goblin.css';
 
-const Goblin = (args) => {
+const Contact = () => {
   const [modals, setModals] = useState([
     {
       isOpen: false,
-      title: 'COMIN SOON',
-      image: 'https://i.pinimg.com/originals/15/01/da/1501dae0620f3629be8758057b0d88d8.gif',
+      title: 'Connect with me',
+      image: 'https://veteranmike.netlify.app/assets/ai_image-DtvBh-hy.jpg',
       abilities: [
-        'Coming Soon',
+        'GitHub: ',
         {
-          gif: 'https://media.tenor.com/rvaa2vMzN1sAAAAC/goblin-slayer.gif',
+          link: 'https://github.com/Mikechavo',
+          text: 'GitHub Profile',
         },
-        
-        // ... other abilities
+        'LinkedIn: ',
+        {
+          link: 'https://www.linkedin.com/in/michael-t-chavez/',
+          text: 'LinkedIn Profile',
+        },
+        'My Portfolio: ',
+        {
+          link: 'https://veteranmike.netlify.app/',
+          text: 'Personal Portfolio',
+        },
       ],
     },
-    
-
-    
   ]);
 
   const toggle = (index) => {
@@ -32,9 +38,9 @@ const Goblin = (args) => {
 
   return (
     <div className="pages-body">
-     <div class="background-animation-goblin"></div> {/* animated background */}
-      
-      <h1 style={{ color: 'white' }}>Goblin Slayer Character List</h1>
+     <div class=""></div> {/* animated background */}
+   
+      <h1 style={{ color: 'white' }}>Let's Connect!</h1>
 
       <div className='pages-listing '>
         {modals.map((card, index) => (
@@ -44,15 +50,15 @@ const Goblin = (args) => {
             </CardTitle>
             <img src={card.image} alt={card.title} />
             <Button color="danger" onClick={() => toggle(index)}>Details</Button>
-            <Modal isOpen={card.isOpen} toggle={() => toggle(index)} {...args}>
-            <ModalBody className="custom-modal">
+            <Modal isOpen={card.isOpen} toggle={() => toggle(index)}>
+              <ModalBody className="custom-modal">
                 <List>
                   {card.abilities.map((ability, i) => (
                     <React.Fragment key={i}>
                       {typeof ability === 'string' ? (
                         <li>{ability}</li>
                       ) : (
-                        <CardImg top width="100%" src={ability.gif} alt={card.title} />
+                        <a href={ability.link} target="_blank" rel="noopener noreferrer">{ability.text}</a>
                       )}
                     </React.Fragment>
                   ))}
@@ -71,4 +77,4 @@ const Goblin = (args) => {
   );
 }
 
-export default Goblin
+export default Contact;

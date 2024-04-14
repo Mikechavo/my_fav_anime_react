@@ -173,12 +173,7 @@ const Jjk = (args) => {
   return (
     <div className="pages-body">
       <div class="background-animation-jjk"></div> {/* animated background */}
-       <Button  color="danger"
-    outline className="berserkButton" >
-      <NavLink to={'/'}  style={{ color: 'white' }}>
-        Home
-      </NavLink>
-      </Button>
+      
       <h1 style={{ color: 'white' }}>Jujutsu Kaisen Character List</h1>
 
       <div className='pages-listing '>
