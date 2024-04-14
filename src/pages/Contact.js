@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Card, Button, Modal, ModalBody, ModalFooter, List, CardImg, CardTitle } from 'reactstrap';
-import { NavLink } from 'react-router-dom';
 import './Pages.css';
 import './Goblin.css';
 
