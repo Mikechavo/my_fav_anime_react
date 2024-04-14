@@ -157,11 +157,15 @@
 .text-light {
   border: 1px solid white; /* Add a solid white border */
   padding: 8px 16px; /* Add padding to create space between text and border */
-  background-color: rgba(247, 17, 17, 0.781); /* Add a semi-transparent white background */
-  box-shadow: 0 2px 4px rgba(223, 11, 11, 0.849); /* Add a shadow effect */
+  background-color: gray;/* Add a semi-transparent white background */
+  box-shadow: 0 2px 4px gray; /* Add a shadow effect */
 }
 
 /* Optional: Increase border radius for rounded corners */
 .text-light {
   border-radius: 4px; /* Adjust as needed */
+}
+
+.navbar-toggler-icon {
+  background-color: gray; /* Change the background color to red */
 }
