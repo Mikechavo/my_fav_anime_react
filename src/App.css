@@ -134,14 +134,34 @@
 }
 
 .custom-card {
-  width: 500px;
-  max-width: 90%; /* Adjust the maximum width as needed */
+  width: 700px;
+  max-width: 100%; /* Adjust the maximum width as needed */
   margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .custom-card {
-    width: 90%;
+    width: 100%;
     max-width: none;
   }
+}
+
+.navbar-background {
+  background-image: url('https://i.pinimg.com/736x/56/0f/cf/560fcff573aab54297d3336ddd6644fd.jpg');
+  background-position: center right;/* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+  background-color: #0f0404;
+}
+
+/* Add styles to the text inside the border */
+.text-light {
+  border: 1px solid white; /* Add a solid white border */
+  padding: 8px 16px; /* Add padding to create space between text and border */
+  background-color: rgba(247, 17, 17, 0.781); /* Add a semi-transparent white background */
+  box-shadow: 0 2px 4px rgba(223, 11, 11, 0.849); /* Add a shadow effect */
+}
+
+/* Optional: Increase border radius for rounded corners */
+.text-light {
+  border-radius: 4px; /* Adjust as needed */
 }

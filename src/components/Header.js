@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 
 function Header() {
   return (
-    <Navbar expand="lg" className="bg-secondary"> {/* Add bg-secondary class for gray background */}
+    <Navbar expand="lg" className="navbar-background">
       <Container>
         <Navbar.Brand as={Link} to="/"><h1 className="text-light">My Favorite Anime</h1></Navbar.Brand> {/* Use text-light class for white text */}
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
