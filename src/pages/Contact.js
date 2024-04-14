@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, Button, Modal, ModalBody, ModalFooter, List, CardImg, CardTitle } from 'reactstrap';
+import { Card, Button, Modal, ModalBody, ModalFooter, List, CardTitle } from 'reactstrap';
 import './Pages.css';
 import './Goblin.css';
 
