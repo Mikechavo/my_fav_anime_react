@@ -118,6 +118,16 @@ const Home = () => {
         </Card>
 
 
+        <Card className="custom-card">
+          <CardTitle tag="h1">Undead Unluck</CardTitle>
+          <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/10/undead-unluck.jpg" />
+          <CardText>Undead Unluck is a 2023 TV series about a young woman named Fuuko Izumo who has the ability to cause bad luck, or "unluck", to anyone who touches her. Fuuko has been living in seclusion for ten years after an incident that killed her parents and over 200 other people when she was eight. When Fuuko considers suicide, she meets Andy, an undead man who can regenerate from any wound and wants to die a good death. The two team up with others who have special abilities to find Andy's "greatest death" and avoid being hunted by a mysterious organization.</CardText>
+          <Button className="home-page-buttons">
+            {/* <NavLink to={'/goblin'} style={{ color: 'white' }}><h2>Goblin Slayer Character list</h2></NavLink> */}
+          </Button>
+        </Card>
+
+
       </div>
     </div>
   );
