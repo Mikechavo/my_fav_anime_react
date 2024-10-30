@@ -126,6 +126,24 @@ const Home = () => {
            
           </Button>
         </Card>
+        
+        <Card className="custom-card">
+          <CardTitle tag="h1">Tower of God</CardTitle>
+          <img src="https://assets.hardwarezone.com/img/2024/08/TowerofGodS2E7-1.jpg" alt="Description"/>
+          <CardText>Tower of God centers around a boy named Twenty-Fifth Bam. It is notable that in Korea 'Bam' can mean 'Night' or 'Chestnut'. He has spent most of his life trapped beneath a vast and mysterious Tower, with only his close friend, Rachel, to keep him company. When Rachel enters the Tower, Bam is devastated.</CardText>
+          <Button className="home-page-buttons">
+           
+          </Button>
+        </Card>
+        
+        <Card className="custom-card">
+          <CardTitle tag="h1">Dandadan</CardTitle>
+          <img src="https://anime-dandadan.com/_assets/images/top/fv/webp/fv_003_pc.webp?202406" alt="Description"/>
+          <CardText>Based on Yukinobu Tatsu's popular manga that debuted in 2021 on Shonen Jump+, Dandadan blends action, comedy, romance, and supernatural thrills to create a unique and satisfying adventure. Momo Ayase and Ken Takakura believe in the extraordinary, although the former believes in ghosts and the latter believes in aliens..</CardText>
+          <Button className="home-page-buttons">
+           
+          </Button>
+        </Card>
 
 
       </div>
