@@ -131,20 +131,32 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  max-width: 100%; /* Ensures container fits the screen on mobile */
 }
 
 .custom-card {
   width: 700px;
-  max-width: 100%; /* Adjust the maximum width as needed */
+  max-width: 100%; /* Ensure it never exceeds the screen width */
   margin-bottom: 20px;
+  padding: 1rem; /* Adds inner padding for better readability */
 }
 
 @media (max-width: 800px) {
+  .container {
+    padding: 10px; /* Reduced padding for smaller screens */
+  }
+  
   .custom-card {
     width: 100%;
-    max-width: none;
+    padding: 1rem; /* Consistent padding for mobile */
   }
 }
+
+img {
+  max-width: 100%; /* Ensures image scales within card */
+  height: auto;
+}
+
 
 .navbar-background {
   background-image: url('https://i.pinimg.com/736x/56/0f/cf/560fcff573aab54297d3336ddd6644fd.jpg');
