@@ -195,6 +195,78 @@ const Home = () => {
           <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/59bd4cfbbfa78680b9cf8dab4fbe51d0.jpg" />
         </Card>
 
+{/* Start here */}
+         <Card className="custom-card">
+          <CardTitle tag="h1">Lord of Mysteries</CardTitle>
+          <img src="https://static.beebom.com/wp-content/uploads/2025/06/Lord-of-Mysteries.jpg?w=1168&quality=75" />
+        </Card>
+
+ <Card className="custom-card">
+          <CardTitle tag="h1">One Punch Man</CardTitle>
+          <img src="https://img4.hulu.com/user/v3/artwork/54a25fcf-a472-4d40-9968-13e2957e5abf?base_image_bucket_name=image_manager&base_image=32569997-9f75-4089-b8d1-9a89d7c04a0a&size=1200x630&format=webp" />
+        </Card>
+
+<Card className="custom-card">
+          <CardTitle tag="h1">Gatchkuta</CardTitle>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3zvhrYIhfuQkQBzin-bXIMQAReTupjxXkmA&s" />
+        </Card>
+
+<Card className="custom-card">
+          <CardTitle tag="h1">Takopi's Original Sin</CardTitle>
+          <img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain,format=auto,quality=85,width=1200,height=675/catalog/crunchyroll/fe04fb008e1f7efbd1ff61a73dc88de0.jpg" />
+        </Card>
+
+
+<Card className="custom-card">
+          <CardTitle tag="h1">That Time I got Reincarnated into a Slim</CardTitle>
+          <img src="https://image.api.playstation.com/vulcan/ap/rnd/202407/2514/162a61928271d13db04ccaef88aff5d06d86df15aed88785.jpg" />
+        </Card>
+
+        
+<Card className="custom-card">
+          <CardTitle tag="h1">Frieren Beyond Journey's End</CardTitle>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLYoo4Mj5FXQ3cIOFzbwW7yfnxr01KqF9NwA&s" />
+        </Card>
+
+        <Card className="custom-card">
+          <CardTitle tag="h1">The Summer Hikaru Died</CardTitle>
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3yuQUl3x2z76WvRq1CKIMN6KFM_QfZ8ekI9FN_F7jy9sui3wn0PbiVCdio3EqyNE5rZJWzmbnyk4sVyzY24ao63m8S5teXojbmWNhbHwybpJoeJKTmBSH1-IvIP3Z925uDAzZFwFH2qmnmqWrEXf7a75_yrTf20HSuyuLmwaenA209sRkfh3M25MELtjv/s1021/Hikaru.jpg" />
+        </Card>
+
+           <Card className="custom-card">
+          <CardTitle tag="h1">Sword of a Demon Hunter</CardTitle>
+          <img src="https://beneaththetangles.com/wp-content/uploads/2025/04/Sword-of-the-Demon-Hunter-III.jpg" />
+        </Card>
+
+            <Card className="custom-card">
+          <CardTitle tag="h1">Sakamoto Days</CardTitle>
+          <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/12/sakamoto-days-art.jpg?w=1600&h=900&fit=crop" />
+        </Card>
+
+             <Card className="custom-card">
+          <CardTitle tag="h1">Cyberpunk Edgerunners</CardTitle>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB84MtADDgkQGq720tSvfHYsLMSldtMRVupg&s" />
+        </Card>
+
+          <Card className="custom-card">
+          <CardTitle tag="h1">Pluto</CardTitle>
+          <img src="https://kotaku.com/app/uploads/2023/10/91e0c1b8c82c5a56091f8581088c41ca.jpg" />
+        </Card>
+
+         <Card className="custom-card">
+          <CardTitle tag="h1">Arcane</CardTitle>
+          <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQbBix0E1ikMlutISo51QoXIc-GH1zpGyutZshgz96IPSxDRy2wF9K9o2xhmrp0plidxgs7TTxJAwa257QU0_LE8y0Sg4OBv2zwVSGViUGAh6-LJzv8C57c0O0lUdySDkHFFjChIAkmgAXQNaYVHLpeuefMs.jpg?r=730" />
+        </Card>
+
+          <Card className="custom-card">
+          <CardTitle tag="h1">Blue Eyed Samurai</CardTitle>
+          <img src="https://static0.thegamerimages.com/wordpress/wp-content/uploads/2023/12/13-blue-eye-samurai-s-second-season-is-a-victory-for-adult-animation.jpg" />
+        </Card>
+
+         <Card className="custom-card">
+          <CardTitle tag="h1">Scavenger's Reign</CardTitle>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt_TUlRCutI2WwcHH32JB9saXutFaRsq-6_A&s" />
+        </Card>
 
       </div>
     </div>
