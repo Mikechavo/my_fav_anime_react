@@ -122,7 +122,7 @@ const Home = () => {
 
         <Card className="custom-card">
           <CardTitle tag="h1">Berserk</CardTitle>
-          <img src="https://destroythecomics.com/wp-content/uploads/2017/06/berserk1280jpg-7586fc_1280w.jpg" alt="" />
+          <img src="https://m.media-amazon.com/images/M/MV5BOTY0ZGMwZmEtNDVmMy00OWJmLWFlNjEtMGZkNTdlN2EzOWVmXkEyXkFqcGc@._V1_.jpg" alt="" />
           <CardText>Berserk is a dark fantasy manga series written and illustrated by Kentarō Miura. The series follows the story of Guts, a mercenary warrior drawn into the world of the God Hand, powerful beings who rule the supernatural realm. The story is set in the Kingdom of Midland, a fictional country inspired by medieval Europe.</CardText>
           <Button className="home-page-buttons">
             <NavLink to={'/berserk'} style={{ color: 'white' }}><h2>Berserk Character list</h2></NavLink>
